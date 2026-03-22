@@ -1,0 +1,4 @@
+!/bin/sh
+docker pull zricethezav/gitleaks:latest
+docker run -v "$YOUR_PATH://path" zricethezav/gitleaks:latest detect --source="//path" --verbose
+EOF
